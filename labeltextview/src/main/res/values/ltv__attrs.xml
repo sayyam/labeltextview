@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="titleText" format="string" />
+    <attr name="leftIcon" format="reference" />
+
+    <declare-styleable name="LabelTextView">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="titleText" />
+        <attr name="leftIcon" />
+    </declare-styleable>
+
+
+</resources>

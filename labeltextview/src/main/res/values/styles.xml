@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="TextView.Title">
+        <item name="android:background">@drawable/primary_bottom_border_bg</item>
+        <item name="android:paddingBottom">@dimen/vertical_spacing</item>
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:layout_marginBottom">@dimen/vertical_spacing</item>
+    </style>
+
+    <style name="TextView.Value">
+
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/gray_dark</item>
+
+    </style>
+
+    <style name="TextView.Footer">
+        <item name="android:layout_marginTop">@dimen/vertical_spacing</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">@color/gray_normal</item>
+
+    </style>
+
+    <style name="MyTheme" parent="android:Theme.Light">
+        <item name="colorAccent">@color/gray_light</item>
+        <item name="colorPrimary">#43D0D7</item>
+    </style>
+
+
+</resources>
